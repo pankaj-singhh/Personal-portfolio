@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d8c6bb456d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+      <div class="container">
+
+        <!-- navbar section -->
+
+        <nav>
+            <img src="Images/logo.png" alt="Pankaj Logo"
+            class="logo">
+            <ul id="sidemenu"> 
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skill</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+           
+        <!-- --------header TextSection---- -->
+
+        <div class="header-text">
+            <p>Pankaj's CodeHub</p>
+            <h1>Hi, I'm <span>Pankaj</span> Singh,<br> a Frontend Developer </h1>
+        </div>
+
+      </div>
+   </div>
+
+          <!----------- About section ------------->
+
+
+       <div id="about">
+        <div class="container">
+           
+            <div class="row">
+                <div class="about-col-1">
+                 <!-- <img src="Images/user.png" alt=""> -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a skilled Frontend Developer and Programmer with a passion for creating engaging and intuitive user experiences. Proficient in HTML, CSS, and JavaScript, I specialize in crafting visually appealing interfaces and implementing interactive functionalities. My expertise includes utilizing popular frontend frameworks like React to enhance project efficiency and user interactivity.I bring creativity and technical proficiency to every project.Check out my portfolio to explore my work and see how I bring ideas to life through code.</p>
+
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab(event,'skills')">Tech Stack</p>
+                <p class="tab-links" onclick="opentab(event,'internship')">Internship</p>
+                <p class="tab-links" onclick="opentab(event,'education')">Education</p>
+            </div>   
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    
+
+                    <li><Span>Frontend Development</Span> <br>Developed a user-friendly interface using HTML, CSS, and JavaScript, with the React.js framework </li>
+
+                    <li><Span>Data Structure & Algorithm</Span> <br>Data Structure & algorithm  we learn in C++ programming Language </li>
+                    <li><Span>BackEnd</Span> <br>Basic implementation of REST APIs, and Express JS </li>
+                </ul>
+            </div>     
+            <div class="tab-contents" id="internship">
+                <ul>
+                    <li><Span>Code Clause</Span> <br>I have completed a one-month internship in Frontend Development, where I gained experience in using HTML, CSS, and JavaScript. </li>
+
+                   
+                </ul>
+            </div>     
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><Span>Gaduation</Span> <br>I am a B.Tech Information Technology student from UNSIET Jaunpur, and my expected graduation year is 2024. </li>
+
+                    <li><Span>Intermediate</Span> <br>I completed my intermediate education in 2020 from Malti Inter College, Pratapgarh.</li>
+
+                    
+                </ul>
+            </div>     
+                </div>
+            </div>
+
+         </div>
+       </div> 
+       <!-- ---------Services/Skills------------ -->
+
+       <div id="services">
+         <div class="container">
+            <h1 class="subtitle"> My Skill</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Developer</h2>
+                    <p >Frontend Developer | I make websites look good and work smoothly! Skilled in <b>HTML, CSS, and JavaScript</b>. Love using <b>React</b> to build interactive stuff. Check out my portfolio for some cool projects!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming</h2>
+                    <p>I'm a <b>C++ & Python</b> coder who loves solving problems with <b>Data Structures </b>&<b>Algorithms</b>. I optimize code and bring passion to problem-solving. Check out my portfolio for a peek into my skills.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>React Developer</h2>
+                    <p>React Developer | I make cool and efficient websites using React. Love creating user-friendly interfaces. Check out my portfolio for examples of my awesome React projects!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+ 
+         </div>
+
+       </div>
+    <!-- -----------portfolio----------- -->
+    <div id="portfolio">
+
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/pro1.png" alt="pro1">
+                    <div class="layer">
+                  <h3>ToDo List</h3>
+                  <p>In this project, I used HTML, CSS, and JavaScript to make a user-friendly task manager. You can easily add, edit, and delete tasks with this system.</p>
+
+                  <a href="https://to-do-app-iota-brown.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+   
+                </div>
+            </div>
+                <div class="work">
+                    <img src="Images/pro2.png" alt="pro2">
+                    <div class="layer">
+                        <h3>Dashboard</h3>
+                        <p>In this project, I used the JavaScript framework React.js to create a job portal dashboard with various functionalities.</p>
+      
+                        <a href="https://coursify-project-kappa.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                      </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="Images/pro3.jpg" alt="pro3">
+                    <div class="layer">
+                        <h3>Tour WebApp</h3>
+                        <p>In this project, I used React.js to allow users to choose tour destinations. If they are not interested, they can easily remove them from their selection.</p>
+      
+                       <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>   
+                      </div>
+                    
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+
+    </div>
+
+
+    <!-- ----------------Contact----------- -->
+
+    <div id="contact">
+       <div class="container">
+          <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Us</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> pankaj109795@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9305337370</p>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/pankaj-singh-0b110a228/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+                    <a href="https://github.com/pankaj-singhh" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+
+                  
+
+                </div>
+                <a href="Images/pankaj_singh.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email"   placeholder=" Your email" required>
+                    <textarea name="Message"   rows="6" placeholder="You Message"></textarea>
+                    <button type="submit" class="btn btn2" id="btn3">Submit</button>
+                </form>
+                <span id="msg"></span>
+        
+            </div>
+          </div>
+       </div>
+       <div class="copyright">
+        <p>Designed & Built by Pankaj Singh </p>
+       </div>
+    </div>
+
+    <!-- ---------------Script------------- -->
+       <script src="script.js"></script> 
+
+       <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxkg8UjZ3j2jJ5aH2comLMz3eJvCdvMupcqcuzztyCzywE2WMpCRhOanX6ARpsUrDb_/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg= document.getElementById('msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML=  "Message sent successfully"
+                setTimeout(function()
+                {
+                    msg.innerHTML=" ";
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> 
+</body>
+</html>
